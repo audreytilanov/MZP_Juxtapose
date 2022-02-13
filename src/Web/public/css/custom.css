@@ -1,0 +1,357 @@
+*{
+    color:#047857;
+    box-sizing: border-box;
+}
+/* HOME */
+.btn-success{
+    background-color:#047857!important;
+}
+
+.font-utama{
+    font-size: 3.5vw;
+}
+
+.font-sekunder{
+    font-size: 1.6vw;
+}
+
+.row{
+    display: flex!important;
+    justify-content:space-between!important;
+}
+
+.font-other{
+    font-size: 2.2vw;
+}
+
+@media only screen and (max-width: 470px) {
+
+    .font-utama{
+        font-size: 4.5vw;
+    }
+    
+    .font-sekunder{
+        font-size: 3vw;
+    }
+    
+    .font-other{
+        font-size: 2.2vw;
+    }
+
+    .row{
+        display: default!important;
+        justify-content:none!important;
+    }
+
+    .card{
+        width: 100%!important;
+    }
+ 
+ }
+
+#partner{
+    margin-top: 50px;
+}
+
+#partner .gambar,
+#partner .desc{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+#partner .desc{
+    margin-top: 4vw;
+    font-size: 3.2vw;
+    color: #333333;
+    line-height: 4vw;
+    font-weight: 800;
+}
+
+#partner .smalldesc{
+    font-size: 1.6vw;
+    color: #000000;
+    /* line-height: 50px; */
+    /* font-weight: 800; */
+}
+
+#partner:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 470px) {
+
+    #partner .gambar{
+        display: none;
+    }
+
+    #partner .desc{
+        margin-top: 0vw;
+        font-size:9vw!important;
+        color: #333333;
+        line-height: 7vw;
+        font-weight: 800;
+        margin:auto;
+        float: none!important;
+        width: 90%!important;
+    }
+
+    #partner .smalldesc{
+        font-size: 3vw;
+        width: 90%;
+        margin:auto;
+        color: #000000;
+        /* line-height: 50px; */
+        /* font-weight: 800; */
+    }
+}
+
+#usaha{
+    margin-top: 50px;
+}
+
+#usaha .gambar
+{
+    float: right;
+    width: 30%;
+    height: auto;
+}
+#usaha .desc{
+    /* float: right; */
+    margin:auto;
+    width: 90%;
+}
+
+#usaha .desc{
+    margin-top: 80px;
+    font-size: 47px;
+    color: #333333;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+#usaha .smalldesc{
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    color: #000000;
+    /* line-height: 50px; */
+    /* font-weight: 800; */
+}
+
+#usaha:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 470px) {
+
+    #usaha .gambar{
+        display: none;
+    }
+
+    #usaha .desc{
+        margin-top: 0vw;
+        font-size:9vw!important;
+        color: #333333;
+        line-height: 7vw;
+        font-weight: 800;
+        margin:auto;
+        float: none!important;
+        width: 90%!important;
+    }
+
+    #usaha .smalldesc{
+        font-size: 3vw;
+        width: 90%;
+        margin:auto;
+        color: #000000;
+        /* line-height: 50px; */
+        /* font-weight: 800; */
+    }
+}
+
+.footerLeft li{
+    font-size: 18px!important;
+}
+
+.footerRight li a,
+.footerRight li{
+    font-size: 18px!important;
+    text-decoration: none;
+    color:#047857;
+    margin-top: 5px;
+}
+/* DIATAS INI TELAH RESPONSIVE */
+
+.seeAll{
+    background-color: transparent!important;
+    border:2px solid #047857!important;
+    color: #047857!important;
+}
+
+#caraInvestasi .gambar .img1{
+    border: 2px solid #047857;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+#caraInvestasi .gambar .img2{
+    border: 2px solid #047857;
+    padding: 25px;
+    margin-top: 10px;
+    /* padding-bottom: -4px; */
+    border-radius: 50px;
+}
+
+#caraInvestasi .gambar .img3{
+    border: 2px solid #047857;
+    padding: 25px;
+    margin-top: 17px;
+    /* padding-bottom: -4px; */
+    border-radius: 50px;
+}
+
+#caraInvestasi .gambar .img4{
+    border: 2px solid #047857;
+    padding: 20px;
+    margin-top: 17px;
+    /* padding-bottom: -4px; */
+    border-radius: 50px;
+}
+
+#caraInvestasi p{
+    text-align: center!important;
+    color: black;
+}
+
+#daftarLogin{
+    display: flex;
+    align-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+
+.descRight{
+    width: 60%;
+    text-align: right;
+}
+
+.descRight h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.descRight p{
+    font-size: 18px;
+    color: black;
+}
+
+
+
+.descLeft{
+    width: 60%;
+    text-align: left;
+}
+
+.descLeft h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.descLeft p{
+    font-size: 18px;
+    color: black;
+}
+
+/* USAHA */
+#periode{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#periode div{
+    /* border: 2px solid #047857;
+    width: 120px;
+    height: 120px;
+    padding: 25px;
+    border-radius: 50%; */
+}
+
+#periode h1{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.fotoPemilik img,
+.fotoPemilik h1{
+    text-align: center;
+    margin:auto;
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.fotoPemilik h1{
+    margin-top: 30px;
+}
+
+.fotoPemilik h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    margin:auto;
+}
+
+.fotoPemilik p{
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+}
+
+#infoSaham{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F2F2F2;
+}
+
+#infoSaham h3{
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+}
+
+#infoSaham h4{
+    text-align: center;
+}
+
+#sahamUtama{
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+#waktuPembagian{
+    margin-top: 50px;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+#persentaseSaham h3
+{
+    font-size: 20px;
+    margin-top: 30px;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+}
