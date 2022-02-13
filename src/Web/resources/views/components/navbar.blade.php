@@ -8,6 +8,7 @@
             <ul class="list-none text-blue-700">
                 {{-- <li class="inline-block mr-5"><a href="{{ route('tentang.basama') }}">Tentang</a></li>
                 <li class="inline-block mr-5"><a href="/">Cara Investasi</a></li> --}}
+                <li class="inline-block mr-5"><a href="{{ route('login') }}" class="btn btn-success">Login</a></li>
                 @if (Auth::check())
 
                 <form action="{{ route('logout') }}" method="post">

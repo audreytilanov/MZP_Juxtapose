@@ -43,7 +43,7 @@
                 <img style="text-align:center;margin:auto;" width="80px" src="{{ URL::asset('fotousaha/'.$usahas->foto) }}" class="" alt="...">
                 <div class="card-body text-center">
                     <h5 class="card-title text-center font-other"><b>{{ $usahas->nama_usaha }}</b></h5>
-                    <p class="card-text text-center text-black font-sekunder">{{ Auth::user()->name }}</p>
+                    {{-- <p class="card-text text-center text-black font-sekunder">{{ Auth::user()->name }}</p> --}}
                     <p><i class="fa fa-lg fa-share"></i></p>
                     <a href="{{ route('detail.usaha',['id' => $usahas->id]) }}" class="btn btn-success">See more</a>
                 </div>
