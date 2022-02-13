@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use App\Models\Usaha;
 use App\Models\DataUsaha;
+use App\Models\FindPartner;
 use Illuminate\Http\Request;
 use App\Models\HistoryPembelian;
 use Illuminate\Support\Facades\Auth;
@@ -59,6 +60,19 @@ class AuthController extends Controller
             'usaha_id' => $id
         ]);
         return redirect()->route('home');
+    }
+
+    public function partner(){
+        $name = "Cari Partner";
+        $get = FindPartner::all();
+        // dd($get);
+        return view('investor.partner', compact('name','get'));
+    }
+
+    public function detailPartner($id){
+        $name = "Cari Partner";
+        $get = FindPartner::where('user_id','=',$id)->get()->first();
+        return view('investor.partnerDetail', compact('name','get'));
     }
 
     public function register(){

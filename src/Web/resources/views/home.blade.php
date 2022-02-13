@@ -86,6 +86,9 @@
         <div class="smalldesc font-kecil">
             BASAMA akan membantu mempertemukan Anda dengan partner bisnis ideal Anda tanpa ribet
         </div>
+        <div style="text-align: center;margin-top:20px;">
+            <a style="background-color: transparent;border:2px solid #047857;" href="/partner" class="seeAll btn btn-success">Cari Partner</a>
+        </div>
     </div>
 </section>
 

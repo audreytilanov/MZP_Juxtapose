@@ -69,4 +69,9 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
+
+    Route::get('/partner', [AuthController::class, 'partner'])->name('partner');
+    Route::get('/detail-partner/{id}', [AuthController::class, 'detailPartner'])->name('detail.partner');
+
+
 });
