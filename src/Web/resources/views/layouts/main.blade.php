@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/35499894bb.js" 
     crossorigin="anonymous"></script>
     @include('sweetalert::alert')
-    <title>{{$name}}</title>
+    {{-- <title>{{$name}}</title> --}}
 </head>
 
 <body class="font-Poppins">
