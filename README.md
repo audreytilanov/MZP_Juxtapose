@@ -13,6 +13,7 @@ c.
 3. clone app ini
 4. ketik composer update di terminal
 5. sesuaikan env dengan DB anda (disini env.example, karena yang asli kena gitignore)
-6. ketika diatas sudah semua, jalankan laravel memakai PHP Artisan serve
+6. Ketika sudah diatur env nya, jalankan php artisan migrate, untuk migrasi database.
+7. ketika diatas sudah semua, jalankan laravel memakai PHP Artisan serve
 
 d. Memakai Teknologi Laravel
